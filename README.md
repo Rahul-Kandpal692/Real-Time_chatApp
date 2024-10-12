@@ -1,7 +1,7 @@
-*****Real-Time Chat Application*****
+#Real-Time Chat Application
 This is a real-time chat application built using Node.js, Express, Socket.io, and MongoDB. Users can send messages, and chat in real-time with other users. The app supports multiple users, private messaging, and online status updates.
 
----Features---
+*****Features******
 1. Real-time messaging using Socket.io
 2. Public and private chat rooms
 3. User authentication (login/signup) with JWT
@@ -10,7 +10,7 @@ This is a real-time chat application built using Node.js, Express, Socket.io, an
 6. Responsive design with React on the frontend
 7. Notifications for new messages
 
----Tech Stack---
+******Tech Stack******
 Backend->
 1. Node.js with Express for server-side code
 2. Socket.io for real-time communication
@@ -22,7 +22,7 @@ Backend->
 8. Tailwind CSS for styling
 
 
----Setup Instructions---
+******Setup Instructions******
 Prerequisites->
 Before running the application, ensure you have the following installed:
 
