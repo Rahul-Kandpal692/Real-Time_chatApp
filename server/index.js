@@ -29,7 +29,7 @@ const server=app.listen(process.env.PORT||10000,()=>{
 
 const io=socket(server,{
     cors:{
-        origin:"http://localhost:3000",
+        origin:"https://real-time-chatapp-f6uz.onrender.com",
         credentials:true
     }
 });
