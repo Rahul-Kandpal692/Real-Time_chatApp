@@ -8,6 +8,7 @@ import axios from "axios";
 import {toast,ToastContainer} from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import { loginRoute } from '../utils/APIRoutes';
+import ParticlesBackground from '../components/ParticlesBackground';
 
 function Login() {
     const navigate=useNavigate();
@@ -71,6 +72,7 @@ function Login() {
     }
   return (
     <>
+    
       <FormContainer>
         <form onSubmit={(event)=>handleSubmit(event)}>
             <div className='brand'>
@@ -99,6 +101,7 @@ function Login() {
         
         </form>
       </FormContainer>
+      
       <ToastContainer />
     </>
   )
@@ -113,7 +116,7 @@ const FormContainer=styled.div`
     justify-content:center;
     gap:1rem;
     align-items:center;
-    background-color:#131324;
+    // background-color:#131324;
     .brand{
         display:flex;
         align-items:center;
