@@ -29,7 +29,7 @@ const server=app.listen(process.env.PORT||10000,()=>{
 
 const io=socket(server,{
     cors:{
-        origin:"https://verdant-parfait-19c001.netlify.app/",
+        origin:"https://verdant-parfait-19c001.netlify.app",
         credentials:true
     }
 });
