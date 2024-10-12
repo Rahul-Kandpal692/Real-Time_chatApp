@@ -29,7 +29,7 @@ const server=app.listen(process.env.PORT||10000,()=>{
 
 const io=socket(server,{
     cors:{
-        origin:"https://real-time-chatapp-f6uz.onrender.com",
+        origin:"https://verdant-parfait-19c001.netlify.app/",
         credentials:true
     }
 });
